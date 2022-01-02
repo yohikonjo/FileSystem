@@ -14,7 +14,7 @@ This program is user space portable indexed file system like the Ext filesystems
 •	The directory structure for the file system is a single level hierarchy with no subdirectories    
 # Commands
 •	put <file name> – copy local file to file system image       
-•	get <file name> <new file name> - retrieves the file from the file system image and deposits it into the directory under new file name. Note: if new file name is empty it will                                       deposit into a file with the same name          
+•	get <file name> <new file name> - retrieves the file from the file system image and deposits it into the directory under new file name. Note: if new file name is empty it will  deposit into a file with the same name          
 •	list [-h] – list the files currently in the file system image. [-h] lists hidden files as well      
 •	df – displays the amount of disk space left in the file system         
 •	open <file image name> - open a file system image       
