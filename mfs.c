@@ -1,8 +1,3 @@
-/*
-  Name: Rafel Tsige
-  ID: 1001417200
-*/
-
 #define _GNU_SOURCE
 
 #include <stdio.h>
